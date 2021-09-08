@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ipic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ipic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar" >
+
+        <receiver
+            android:name=".Widgets.IPWidgetDark"
+            android:exported="true"
+            android:icon="@drawable/ipicwhite"
+            android:label="Black font color" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ip_widget_metadata" >
+            </meta-data>
+        </receiver>
+
+        <receiver
+            android:name=".Widgets.IPWidget"
+            android:exported="true"
+            android:icon="@drawable/ipic"
+            android:label="White font color" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ip_widget_metadata" >
+            </meta-data>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
