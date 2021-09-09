@@ -5,11 +5,11 @@ You can find it on my github too.
 
 Main screen contains Dark and Light mods:
 
-![dark](https://user-images.githubusercontent.com/33634903/132573452-14b6c474-b44d-41aa-adbe-b06f52587918.jpg)
-![light](https://user-images.githubusercontent.com/33634903/132573457-9b487e4a-46eb-4fa8-af7d-c70845ac4f7e.jpg)
+![light2](https://user-images.githubusercontent.com/33634903/132622171-1215d82c-4183-42ba-a04f-54ecc01945be.jpg)
+![dark2](https://user-images.githubusercontent.com/33634903/132622150-bd70ace3-da66-4f6b-8635-da0da091d937.jpg)
 
 Also you can create widgets with black or white font colors:
 
-![screen](https://user-images.githubusercontent.com/33634903/132573572-a56967a4-a6c1-4eb0-881a-6b21bb416879.jpg)
+![screen2](https://user-images.githubusercontent.com/33634903/132622193-2868cd9a-66d7-4a2a-9a22-8bd8a57f9dcb.jpg)
 
 Good luck!
